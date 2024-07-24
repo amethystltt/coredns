@@ -5,6 +5,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+      time: "5:46"
     groups:
       k8s.io:
         patterns:
@@ -16,12 +17,14 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
+      time: "5:46"
       interval: "daily"
 
   - package-ecosystem: "gomod"
     directory: "/"
     target-branch: "v1.11.3"
     schedule:
+      time: "5:46"
       interval: "daily"
     groups:
       k8s.io:
@@ -35,4 +38,5 @@ updates:
     directory: "/"
     target-branch: "v1.11.3"
     schedule:
+      time: "5:46"
       interval: "daily"
